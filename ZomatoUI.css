@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nv{
+    background: url(first-bgimg.avif);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    
+}
+
+.nv nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+
+.nv .logo{
+    text-align: center;
+    width: 100px;
+    margin-left: 38%;
+    
+
+}
+
+.nv .inp{
+    text-align: center;
+}
+
+.nv .top-right{
+    display: flex;
+    margin-left: 300px;
+
+}
+
+.nv nav p{
+    margin-top: 18px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+.nv .top-right p{
+    margin-left: 35px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;   
+}
+
+.nv .top-right p:hover{
+    color: aqua;
+}
+
+.nv .logo img{
+    width: 300px;
+    margin-top: 66px;
+
+}
+
+
+.nv .txt{
+    display: flex;
+   
+
+}
+
+.nv .text h1{
+    color: white;
+    text-align: center;
+    font-size: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin: 30px;
+    letter-spacing: 1px;
+
+
+}
+
+.nv .inp input{
+    width: 780px;
+    height: 55px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0.1rem solid rgb(207, 207, 207);
+    cursor:text;
+    color: black;
+    outline: 1px solid #1c1c1c;
+    font-size: 15px;
+}
+
+.cards{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.cards .crd{
+    width: 320px;
+    height: 380px;
+    margin-top: 50px;
+    border-radius: 15px;
+    
+}
+
+.cards .crd h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.cards .crd p{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #9c9c9c;
+    margin-top: 14px;
+}
+
+.cards .crd img{
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.40s;
+
+}
+
+.cards .crd img:hover{
+    
+    width: 100%;
+    border-radius: 50%;
+   
+    
+
+}
+
+.coll .txt{
+    margin-left: 34px;
+    margin-top: 80px;
+    padding: 40px;
+    
+    
+}
+
+.coll .txt h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    
+    
+}
+
+.coll .txt p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #1c1c1c;
+    
+}
+
+.coll .rest{
+    display: flex;
+    justify-content:space-evenly;
+    margin-right: 50px;
+    
+    
+}
+
+.coll .rest img{
+    width: 230px;
+    height: 300px;
+    margin-left: 60px;
+    border-radius: 15px;
+    transition: all 0.30s;
+}
+
+.coll .rest img:hover{
+    width: 230px;
+    height: 300px;
+    border-radius: 30%;
+
+}
+
+
+.app-login{
+    margin-top: 30px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200, 251, 247);
+
+}
+
+.app-login .iphone-login{
+    width: 420px;
+    height: 440px;
+    margin-right: 20px;
+}
+
+.app-login .app-l-right{
+    width: 450px;
+    height: 350px;
+    
+}
+
+.app-l-right h2{
+    color: #1c1c1c;
+    font-size: 44px;
+    font-weight: 200;
+    word-spacing: 3px;
+    margin: 0px 0px 15px;
+    font-family: Okra, Helvetica, sans-serif;
+    padding: 10px;
+
+}
+
+.app-l-right .first-para{
+    font-size: 17.3px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 30px;
+    color: darkslategrey;
+    width: 470px;
+
+}
+
+.app-l-right h1{
+    color: #ef4f5f;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: Okra, Helvetica, sans-serif;
+
+}
+
+.btn-input-right{
+    width: 500px;
+}
+
+.btn-input-right input{
+    width: 295px;
+    height: 50px;
+    background-color: #fff;
+    border: 0.1rem solid rgb(207, 207, 207);
+    font-size: 18px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    color: rgb(28, 28, 28);
+    padding: 1.3rem 1.2rem;
+    margin-top: 10px;
+}
+
+.btn-input-right button{
+    width: 150px;
+    height: 48px;
+    background: #ef4f5f;
+    border: transparent;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    font-family: Okra, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+.btn-input-right button:hover{
+    background: #fff;
+    color: #ef4f5f;
+    
+}
+
+.app-l-right .d-a-f{
+    color: #9c9c9c;
+    width: 450px;
+    height: 21px;
+    font-size: 14px;
+    font-family: Okra, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.app-l-right .plays-apps{
+    width: 450px;
+    height: 40px;
+
+}
+
+.app-l-right .plays-apps img{
+    width: 145px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.footer-logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer img{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 30px;
+    
+    
+}
+
+
+
+.footer-info{
+    width: 100%;
+    height: 510px;
+    background: #e06ce423;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.box-1{
+    display:inline;
+    width: 130px;
+    height: 240px;
+    padding: 25px;
+    margin-top: 100px;
+}
+
+.box-1 h6{
+    font-size: 19px;
+    margin: 0px 0px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+
+.box-1 p{
+    width: 130px;
+    height: 30px;
+    font-family: Okra, Helvetica, sans-serif;
+    color: #9c9c9c;
+       
+}
+
+.box-1 p:hover{
+    color: rgb(255, 51, 0);
+    
+}
+
+
+
+
+.social-l{
+    display:inline;
+    width: 200px;
+    height: 240px;
+    padding: 25px;
+    margin-top: 100px;
+}
+
+.social-l h6{
+    font-size: 19px;
+    margin: 0px 0px 12px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+
+.social-l i{
+    color: black;
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
